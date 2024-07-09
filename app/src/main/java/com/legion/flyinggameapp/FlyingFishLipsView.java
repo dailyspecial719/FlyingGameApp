@@ -1,4 +1,4 @@
-package com.generally2.flyinggameapp;
+package com.legion.flyinggameapp;
 
 import android.content.Context;
 import android.content.Intent;

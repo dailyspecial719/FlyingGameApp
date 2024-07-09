@@ -1,4 +1,4 @@
-package com.generally2.flyinggameapp;
+package com.legion.flyinggameapp;
 
 import org.junit.Test;
 

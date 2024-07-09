@@ -1,4 +1,4 @@
-package com.generally2.flyinggameapp;
+package com.legion.flyinggameapp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.generally2.flyinggameapp", appContext.getPackageName());
+        assertEquals("com.legion.flyinggameapp", appContext.getPackageName());
     }
 }
