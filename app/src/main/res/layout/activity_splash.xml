@@ -1,4 +1,4 @@
-<?xml version="1.2" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -32,5 +32,16 @@
         android:name="com.app.SplashScreenActivity"
         android:theme="@style/RemoveAppSplashTheme"
         android:launchMode="singleInstance" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_below="@id/imageView"
+        android:textColor="#FFFFFF"
+        android:text="Instructions \n Tap the screen to make the fish swim towards the surface.\n \nCollect the  Green and Yellow nuggets to earn points.\n\n Avoid the Red nuggets  to stay alive."
+        />
 
 </RelativeLayout>
